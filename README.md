@@ -1,73 +1,73 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  body {
-    background-color: #f4efe6;
-    font-family: 'Segoe UI', 'Georgia', serif;
-    color: #4a3728;
-    line-height: 1.7;
-    padding: 40px 20px;
-    margin: 0;
-  }
-  .container {
-    max-width: 900px;
-    margin: auto;
-    background: #fffcf8;
-    padding: 40px 50px;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.04);
-    border: 1px solid #e2d8cd;
-  }
-  h1, h2 {
-    color: #5c3d2e;
-    font-weight: 500;
-  }
-  h1 {
-    border-left: 5px solid #b8956e;
-    padding-left: 20px;
-    margin-bottom: 30px;
-  }
-  h2 {
-    margin-top: 35px;
-    margin-bottom: 15px;
-    padding-bottom: 6px;
-    border-bottom: 1px solid #ded3c4;
-  }
-  ul {
-    margin: 20px 0;
-  }
-  li {
-    margin: 8px 0;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-  }
-  th, td {
-    text-align: left;
-    padding: 10px 12px;
-    border-bottom: 1px solid #e8e0d4;
-  }
-  th {
-    background-color: #f7f2ea;
-    color: #5c3d2e;
-    font-weight: 500;
-  }
-  hr {
-    border: none;
-    border-top: 1px solid #ded3c4;
-    margin: 30px 0;
-  }
-  footer {
-    text-align: center;
-    font-size: 0.85rem;
-    color: #b2a187;
-    margin-top: 40px;
-  }
-</style>
-</head>
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<style>
+		  body {
+		    background-color: #f4efe6;
+		    font-family: 'Segoe UI', 'Georgia', serif;
+		    color: #4a3728;
+		    line-height: 1.7;
+		    padding: 40px 20px;
+		    margin: 0;
+		  }
+		  .container {
+		    max-width: 900px;
+		    margin: auto;
+		    background: #fffcf8;
+		    padding: 40px 50px;
+		    border-radius: 12px;
+		    box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+		    border: 1px solid #e2d8cd;
+		  }
+		  h1, h2 {
+		    color: #5c3d2e;
+		    font-weight: 500;
+		  }
+		  h1 {
+		    border-left: 5px solid #b8956e;
+		    padding-left: 20px;
+		    margin-bottom: 30px;
+		  }
+		  h2 {
+		    margin-top: 35px;
+		    margin-bottom: 15px;
+		    padding-bottom: 6px;
+		    border-bottom: 1px solid #ded3c4;
+		  }
+		  ul {
+		    margin: 20px 0;
+		  }
+		  li {
+		    margin: 8px 0;
+		  }
+		  table {
+		    width: 100%;
+		    border-collapse: collapse;
+		    margin: 20px 0;
+		  }
+		  th, td {
+		    text-align: left;
+		    padding: 10px 12px;
+		    border-bottom: 1px solid #e8e0d4;
+		  }
+		  th {
+		    background-color: #f7f2ea;
+		    color: #5c3d2e;
+		    font-weight: 500;
+		  }
+		  hr {
+		    border: none;
+		    border-top: 1px solid #ded3c4;
+		    margin: 30px 0;
+		  }
+		  footer {
+		    text-align: center;
+		    font-size: 0.85rem;
+		    color: #b2a187;
+		    margin-top: 40px;
+		  }
+		</style>
+		</head>
 <body>
 <div class="container">
   <h1>🔒 Cibersegurança – Mulheres Digitais (JA)</h1>
