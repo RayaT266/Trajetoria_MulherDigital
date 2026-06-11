@@ -1,180 +1,105 @@
-# Trajetoria_MulherDigital
-Projetos e exercícios desenvolvidos durante o curso de cibersegurança do programa Mulheres Digitais (JA).
- # 🔒 Cibersegurança – Mulheres Digitais (JA)
-
-Este repositório contém os projetos, desafios e anotações que estou desenvolvendo ao longo do curso de cibersegurança do projeto **Mulheres Digitais** da JA.
-
-## 📚 Conteúdos abordados
-
-- Fundamentos de cibersegurança  
-- Identificação e análise de vulnerabilidades  
-- Segurança em redes e sistemas  
-- Práticas de autenticação e controle de acesso  
-- Boas práticas de proteção de dados  
-
-## 🗂️ Estrutura do repositório
-
-- `/projetos` – desafios práticos do curso  
-- `/anotacoes` – resumos e conceitos importantes  
-- `/laboratorios` – simulações e testes em ambientes controlados  
-
-## 🚀 Em desenvolvimento
-
-Acompanhando o módulo de cibersegurança do programa Mulheres Digitais, com foco em aprendizado prático e construção de portfólio.
-
----
-
-_Registro da minha jornada no curso de cibersegurança._
-
-
 <!DOCTYPE html>
 <html>
 <head>
 <style>
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4efe6;
+    font-family: 'Segoe UI', 'Georgia', serif;
+    color: #4a3728;
+    line-height: 1.7;
+    padding: 40px 20px;
     margin: 0;
-    padding: 20px;
-    background: linear-gradient(135deg, #0a0f1e 0%, #0f172a 100%);
-    color: #e2e8f0;
   }
   .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
-    background: rgba(15, 23, 42, 0.9);
-    border-radius: 24px;
-    padding: 30px;
-    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
-    backdrop-filter: blur(2px);
+    background: #fffcf8;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    border: 1px solid #e2d8cd;
+  }
+  h1, h2 {
+    color: #5c3d2e;
+    font-weight: 500;
   }
   h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    background: linear-gradient(135deg, #a855f7, #3b82f6);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin-bottom: 10px;
+    border-left: 5px solid #b8956e;
+    padding-left: 20px;
+    margin-bottom: 30px;
   }
-  .subtitulo {
-    text-align: center;
-    color: #94a3b8;
-    margin-bottom: 40px;
-    font-size: 1.1rem;
-  }
-  .modulos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    margin-bottom: 50px;
-  }
-  .card {
-    background: #1e293b;
-    border-radius: 20px;
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-left: 4px solid #3b82f6;
-  }
-  .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 25px -12px rgba(0,0,0,0.4);
-    border-left-color: #a855f7;
-  }
-  .modulo-num {
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #a855f7;
-    font-weight: bold;
-  }
-  .modulo-titulo {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin: 10px 0;
-    color: #f1f5f9;
-  }
-  .modulo-desc {
-    font-size: 0.9rem;
-    color: #cbd5e1;
-  }
-  .jornada {
-    background: linear-gradient(135deg, #1e1b4b, #0f172a);
-    border-radius: 20px;
-    padding: 25px;
-    margin-top: 20px;
-    border: 1px solid #334155;
-  }
-  .jornada h2 {
-    color: #c084fc;
+  h2 {
+    margin-top: 35px;
     margin-bottom: 15px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ded3c4;
   }
-  .timeline {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  ul {
+    margin: 20px 0;
   }
-  .passo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: #0f172a;
-    padding: 12px 18px;
-    border-radius: 16px;
+  li {
+    margin: 8px 0;
   }
-  .passo-icon {
-    font-size: 1.8rem;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
   }
-  .passo-text {
-    flex: 1;
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8e0d4;
   }
-  .passo-titulo {
-    font-weight: bold;
-    color: #e2e8f0;
+  th {
+    background-color: #f7f2ea;
+    color: #5c3d2e;
+    font-weight: 500;
   }
-  .passo-data {
-    font-size: 0.8rem;
-    color: #64748b;
+  hr {
+    border: none;
+    border-top: 1px solid #ded3c4;
+    margin: 30px 0;
   }
   footer {
     text-align: center;
+    font-size: 0.85rem;
+    color: #b2a187;
     margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #334155;
-    color: #64748b;
-    font-size: 0.8rem;
-  }
-  @media (max-width: 700px) {
-    .container { padding: 20px; }
-    .modulos { grid-template-columns: 1fr; }
   }
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>🔐 Cibersegurança</h1>
-  <div class="subtitulo">Projeto Mulheres Digitais (JA) — Minha jornada de aprendizado</div>
+  <h1>🔒 Cibersegurança – Mulheres Digitais (JA)</h1>
 
-  <!-- Módulos -->
-  <div class="modulos">
-    <div class="card"><div class="modulo-num">Módulo 1</div><div class="modulo-titulo">Introdução</div><div class="modulo-desc">Fundamentos da cibersegurança, conceitos básicos e importância no mundo digital.</div></div>
-    <div class="card"><div class="modulo-num">Módulo 2</div><div class="modulo-titulo">Ataque, Conceitos e Técnicas</div><div class="modulo-desc">Principais tipos de ataques, vetores de ameaça e como funcionam na prática.</div></div>
-    <div class="card"><div class="modulo-num">Módulo 3</div><div class="modulo-titulo">Protegendo seus dados e privacidade</div><div class="modulo-desc">Boas práticas, criptografia, autenticação e defesa pessoal.</div></div>
-    <div class="card"><div class="modulo-num">Módulo 4</div><div class="modulo-titulo">Protegendo a Organização</div><div class="modulo-desc">Segurança corporativa, políticas de acesso e resposta a incidentes.</div></div>
-    <div class="card"><div class="modulo-num">Módulo 5</div><div class="modulo-titulo">O seu futuro na segurança cibernética?</div><div class="modulo-desc">Carreiras, certificações e próximos passos na área.</div></div>
-  </div>
+  <p>Este repositório contém os projetos, desafios e anotações desenvolvidos ao longo do curso de cibersegurança do projeto <strong>Mulheres Digitais</strong> da JA.</p>
 
-  <!-- Minha Jornada -->
-  <div class="jornada">
-    <h2>📖 Minha jornada dentro do projeto</h2>
-    <div class="timeline">
-      <div class="passo"><div class="passo-icon">🚀</div><div class="passo-text"><div class="passo-titulo">Início no Mulheres Digitais</div><div class="passo-data">Primeiro contato com cibersegurança</div></div></div>
-      <div class="passo"><div class="passo-icon">⚔️</div><div class="passo-text"><div class="passo-titulo">Explorando ataques e defesas</div><div class="passo-data">Módulo 2 – laboratórios práticos</div></div></div>
-      <div class="passo"><div class="passo-icon">🔒</div><div class="passo-text"><div class="passo-titulo">Proteção de dados e privacidade</div><div class="passo-data">Módulo 3 – aplicando no dia a dia</div></div></div>
-      <div class="passo"><div class="passo-icon">🏢</div><div class="passo-text"><div class="passo-titulo">Segurança organizacional</div><div class="passo-data">Módulo 4 – visão corporativa</div></div></div>
-      <div class="passo"><div class="passo-icon">🎯</div><div class="passo-text"><div class="passo-titulo">Planejando meu futuro na área</div><div class="passo-data">Módulo 5 – certificações e carreira</div></div></div>
-    </div>
-  </div>
-  <footer>Projeto Mulheres Digitais (JA) • Cibersegurança • Portfólio em construção</footer>
+  <h2>📚 Conteúdos abordados</h2>
+  <ul>
+    <li>Fundamentos de cibersegurança</li>
+    <li>Identificação e análise de vulnerabilidades</li>
+    <li>Segurança em redes e sistemas</li>
+    <li>Práticas de autenticação e controle de acesso</li>
+    <li>Boas práticas de proteção de dados</li>
+  </ul>
+
+  <h2>🗂️ Estrutura do repositório</h2>
+  <table>
+    <thead>
+      <tr><th>Diretório</th><th>Descrição</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>/projetos</code></td><td>Desafios práticos do curso</td></tr>
+      <tr><td><code>/anotacoes</code></td><td>Resumos e conceitos fundamentais</td></tr>
+      <tr><td><code>/laboratorios</code></td><td>Simulações e testes em ambientes controlados</td></tr>
+    </tbody>
+  </table>
+
+  <h2>🚀 Em desenvolvimento</h2>
+  <p>Acompanhamento do módulo de cibersegurança do programa <strong>Mulheres Digitais (JA)</strong>, com ênfase na aprendizagem prática e na construção contínua do portfólio profissional.</p>
+
+  <hr>
+  <footer>Registro da trajetória no curso de cibersegurança.</footer>
 </div>
 </body>
 </html>
