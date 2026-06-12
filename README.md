@@ -21,5 +21,7 @@ Este repositório contém os projetos, desafios e anotações que estou desenvol
 Acompanhando o módulo de cibersegurança do programa Mulheres Digitais, com foco em aprendizado prático e construção de portfólio.
 
 ---
+RayaT266.github.io
+---
 
 _Registro da minha jornada no curso de cibersegurança._
